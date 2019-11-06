@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (1)]">
+  <listeners>
+    <listener class-name="com.atmecs.testing.extentreport.Extent"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browser" value="MY,CHROME"/>
+    <parameter name="url" value="https://www.phptravels.net/"/>
+    <classes>
+      <class name="com.atmecs.testing.testscripts.TestVerifyPhpTravels">
+        <methods>
+          <include name="baseSetup"/>
+          <include name="verifyPhpTravels"/>
+          <include name="endDriver"/>
+        </methods>
+      </class> <!-- com.atmecs.testing.testscripts.TestVerifyPhpTravels -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite (1)] -->

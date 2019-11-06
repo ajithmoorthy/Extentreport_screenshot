@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[browsername :CHROME]]>
+    </line>
+    <line>
+      <![CDATA[browsername :CHROME]]>
+    </line>
+    <line>
+      <![CDATA[url is loaded]]>
+    </line>
+    <line>
+      <![CDATA[jdhghhg]]>
+    </line>
+    <line>
+      <![CDATA[url is loaded]]>
+    </line>
+    <line>
+      <![CDATA[ajith]]>
+    </line>
+    <line>
+      <![CDATA[jdhghhg]]>
+    </line>
+    <line>
+      <![CDATA[moorthy]]>
+    </line>
+    <line>
+      <![CDATA[ajith]]>
+    </line>
+    <line>
+      <![CDATA[moorthy]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23879" started-at="2019-11-06T15:55:09Z" finished-at="2019-11-06T15:55:33Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="22137" started-at="2019-11-06T15:55:09Z" finished-at="2019-11-06T15:55:31Z">
+      <class name="com.atmecs.testing.testscripts.TestVerifyCanvas">
+        <test-method status="PASS" signature="baseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.testing.testscripts.TestVerifyCanvas@5891e32e]" name="baseSetup" is-config="true" duration-ms="15125" started-at="2019-11-06T15:55:09Z" finished-at="2019-11-06T15:55:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MY,CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.redbus.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browsername :CHROME]]>
+            </line>
+            <line>
+              <![CDATA[url is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="verifyCanvas()[pri:0, instance:com.atmecs.testing.testscripts.TestVerifyCanvas@5891e32e]" name="verifyCanvas" duration-ms="4115" started-at="2019-11-06T15:55:24Z" finished-at="2019-11-06T15:55:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[jdhghhg]]>
+            </line>
+            <line>
+              <![CDATA[ajith]]>
+            </line>
+            <line>
+              <![CDATA[moorthy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCanvas -->
+        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.atmecs.testing.testscripts.TestVerifyCanvas@5891e32e]" name="endDriver" is-config="true" duration-ms="2388" started-at="2019-11-06T15:55:29Z" finished-at="2019-11-06T15:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+      </class> <!-- com.atmecs.testing.testscripts.TestVerifyCanvas -->
+    </test> <!-- Test1 -->
+    <test name="Test" duration-ms="23879" started-at="2019-11-06T15:55:09Z" finished-at="2019-11-06T15:55:33Z">
+      <class name="com.atmecs.testing.testscripts.TestVerifyCanvas">
+        <test-method status="PASS" signature="baseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.testing.testscripts.TestVerifyCanvas@a38d7a3]" name="baseSetup" is-config="true" duration-ms="16164" started-at="2019-11-06T15:55:09Z" finished-at="2019-11-06T15:55:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MY,CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.redbus.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browsername :CHROME]]>
+            </line>
+            <line>
+              <![CDATA[url is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="verifyCanvas()[pri:0, instance:com.atmecs.testing.testscripts.TestVerifyCanvas@a38d7a3]" name="verifyCanvas" duration-ms="5877" started-at="2019-11-06T15:55:25Z" finished-at="2019-11-06T15:55:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[jdhghhg]]>
+            </line>
+            <line>
+              <![CDATA[ajith]]>
+            </line>
+            <line>
+              <![CDATA[moorthy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCanvas -->
+        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.atmecs.testing.testscripts.TestVerifyCanvas@a38d7a3]" name="endDriver" is-config="true" duration-ms="1392" started-at="2019-11-06T15:55:32Z" finished-at="2019-11-06T15:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+      </class> <!-- com.atmecs.testing.testscripts.TestVerifyCanvas -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
